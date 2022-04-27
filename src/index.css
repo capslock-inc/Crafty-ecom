@@ -19,12 +19,63 @@ body{
   padding: 0;
   box-sizing: border-box;
   background: var(--bg-color);
+  /* animation: upanddown 30s linear infinite alternate; */
 
   font-family: 'Poppins', sans-serif;
   font-weight: var(--secondary-weight);
   font-size: var(--secondary);
   color:var(--txt-secondary)
 
+}
+button{
+  height: 3rem;
+  width: 8rem;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--bg-color);
+  background-color: var(--txt-primary);
+  transition: 250ms;
+  cursor: pointer;
+}
+button:hover{
+  box-shadow:5px 0px 20px 5px var(--txt-primary);
+  backdrop-filter: blur(10px);
+  
+}
+@keyframes upanddown {
+    
+  100%{
+      background-color: yellow;
+  }
+  87%{
+      background-color: gold;
+  }
+  77%{
+      background-color: goldenrod;
+  }
+  67%{
+      background-color: yellow;
+  }
+  57%{
+      background-color: gold;
+  }
+  47%{
+      background-color: goldenrod;
+  }
+  37%{
+      background-color: yellow;
+  }
+  27%{
+      background-color: gold;
+  }
+  18%{
+      background-color:goldenrod;
+  }
+  0%{
+     background-color: yellow;
+  }
 }
 
 
