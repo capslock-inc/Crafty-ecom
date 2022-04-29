@@ -1,82 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;800&display=swap');
 
 :root{
-  /* colors */
-  --bg-color:#E5A500;
-  --txt-primary:#5A1000;
-  --txt-secondary:#000;
-
-  /* fontsize and weight */
-  --primary:3rem;
-  --secondary:18px;
-  --primary-weight:700;
-  --secondary-weight:300;
-  
+    --bg-color:black;
 }
-
 body{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background: var(--bg-color);
-  /* animation: upanddown 30s linear infinite alternate; */
-
-  font-family: 'Poppins', sans-serif;
-  font-weight: var(--secondary-weight);
-  font-size: var(--secondary);
-  color:var(--txt-secondary)
-
+    background-color: var(--bg-color);
+    color: aquamarine;
 }
-button{
-  height: 3rem;
-  width: 8rem;
-  border: none;
-  border-radius: 30px;
-  font-size: 16px;
-  font-weight: 700;
-  color: var(--bg-color);
-  background-color: var(--txt-primary);
-  transition: 250ms;
-  cursor: pointer;
-}
-button:hover{
-  box-shadow:5px 0px 20px 5px var(--txt-primary);
-  backdrop-filter: blur(10px);
-  
-}
-@keyframes upanddown {
-    
-  100%{
-      background-color: yellow;
-  }
-  87%{
-      background-color: gold;
-  }
-  77%{
-      background-color: goldenrod;
-  }
-  67%{
-      background-color: yellow;
-  }
-  57%{
-      background-color: gold;
-  }
-  47%{
-      background-color: goldenrod;
-  }
-  37%{
-      background-color: yellow;
-  }
-  27%{
-      background-color: gold;
-  }
-  18%{
-      background-color:goldenrod;
-  }
-  0%{
-     background-color: yellow;
-  }
-}
-
-
-
